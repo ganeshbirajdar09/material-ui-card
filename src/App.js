@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ProductCard from "./components/ProductCard";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ProductCard
+        name="LEILA FLORAL DRESS, BEIGE"
+        currPrice="89.00"
+        prevPrice="109.00"
+        off="15"
+        img="https://res.cloudinary.com/dqf1zqrr9/image/upload/v1643119273/users/nzydrbkyezhjimiymom9.jpg"
+      />
     </div>
   );
-}
+};
 
 export default App;
