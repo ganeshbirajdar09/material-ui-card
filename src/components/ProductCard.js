@@ -42,7 +42,7 @@ const ProductCard = ({ name, currPrice, prevPrice, off, img }) => {
             className={classes.button}
             variant="outlined"
             color="error"
-            style={{ width: "100%" }}
+            style={{ fontSize: "1.2rem" }}
           >
             MOVE TO BAG
           </Button>
