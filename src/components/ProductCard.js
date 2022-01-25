@@ -21,7 +21,7 @@ const ProductCard = ({ name, currPrice, prevPrice, off, img }) => {
           </Typography>
 
           <CardContent className={classes.prices}>
-            <Typography variant={"h7"}>${currPrice}</Typography>
+            <Typography variant={"h7"}>£ {currPrice}</Typography>
             <Typography
               variant={"h7"}
               style={{
